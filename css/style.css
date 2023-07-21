@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    overflow: hidden;
+}
+
+.main{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.textarea{
+    resize: none;
+    margin-top: 20px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 350px;
+    height: 600px;
+    font-size: 0.8rem;
+    overflow-y: scroll;
+}
+
+.btn{
+    width: 350px;
+    height: 35px;
+    text-align: center;
+    background-color: royalblue;
+    color: white;
+    margin-left: 20px;
+    margin-top: 10px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.content{
+    width: 0;
+    height: 0;
+    opacity: 0;
+    position: absolute;
+}
